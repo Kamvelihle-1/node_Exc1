@@ -9,7 +9,7 @@ writeFile('data.txt', 'Hello node file system','utf-8', (err) => {
 
 //When writing a second line to data.txt it overrides the previous line/content
 
-appendFile('data.txt','\n Node.js for backend','utf-8',(err)=>{
+appendFile('data.txt','\nNode.js for backend','utf-8',(err)=>{
     if(err)
         console.log(err);
     else
